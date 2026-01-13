@@ -18,9 +18,7 @@
     background-color: #FFF4E7;
     
 }
-.display-flex {
-    display: flex;
-}
+
 #nav-bar {
     justify-content: space-between;
     align-items: center;
@@ -275,6 +273,13 @@ ul li a {
     width: 94%;
     margin: 0 auto;
 }
+#nav-bar {
+    display: block;
+    text-align: center;
+}
+ul {
+    display: block;
+}
 .all-team-p {
     flex-direction: column; 
     text-align: center;  
@@ -320,6 +325,13 @@ ul li a {
     .container {
     width: 97%;
     margin: 0 auto;
+}
+#nav-bar {
+    text-align: center;
+    display: block;
+}
+ul {
+    display: block;
 }
 .love-contant {
     text-align: center;
