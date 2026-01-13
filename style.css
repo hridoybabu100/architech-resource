@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+.container {
+    width: 72%;
+    margin: 0 auto;
+}
+
+
+/* common class typrografy  */
+.dark-1 {
+    color: #727272;
+}
+#header {
+    background-color: #FFF4E7;
+    
+}
+.display-flex {
+    display: flex;
+}
+#nav-bar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    display: flex;
+}
+#nav-bar h1 {
+    font-size: 2.9rem;
+    color: black;
+    font-weight: 600;
+}
+ul {
+    display: flex;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+ul li a {
+    text-decoration: none;
+    color: #727272;
+    line-height: 26px;
+    font-size: 1.2rem;
+}
+/* hero section code hare  */
+.hero-contant {
+    text-align: center;
+
+}
+.hero-contant h1 {
+    margin: 20px 0px;
+    font-size: 4rem;
+    color: black;
+    font-weight: bold;
+}
+.hero-contant p {
+    margin: 20px 0px;
+    color: #727272;
+    line-height: 16px;
+}
+.hero-btn {
+    background-color: #FF900E;
+    color: #FFF4E7;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+.hero-contant img {
+    width: 100%;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+.fancy-button {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
+}
+
+.fancy-button:hover {
+    background-color: #45a049; 
+    transform: scale(1.1); 
+}
+
+.fancy-button:active {
+    background-color: #3e8e41; 
+    transform: scale(0.9); 
+}
+
+/* team section code hare  */
+#quick {
+    margin: 50px 0px;
+}
+.all-team-p {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.quick-p {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.quick-p img {
+    width: 342px;
+    border-radius: 10px;
+}
+.quick-contant h2{
+    font-size: 2.9rem;
+    margin-bottom: 20px;
+}
+.quick-contant p {
+     color: #727272;
+     line-height: 26px;
+}
+
+/* love section code hare  */
+#love {
+    margin-bottom: 50px;
+}
+.love-p {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    /* align-items: center;  */
+}
+.love-contant h2 {
+    margin: 10px 0px;
+    border-left: 5px solid red;
+    padding-left: 15px;
+    color: black;
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+.love-contant p {
+    color: #727272;
+    margin-bottom: 10px;
+}
+.card {
+    /* border: 1px solid red;  */
+    margin-bottom: 10px;
+    width: 450px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+}
+.card *{
+    margin-bottom: 5px;
+}
+.card h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.love-img img {
+    width: 600px;
+}
+#position-btn {
+    text-align: center;
+}
+#year {
+    font-size: 4.1rem;
+}
+#position {
+    margin-left: 120px;
+    margin-top: -100px ;
+}
+
+/* fact section code hare  */
+#fact {
+    margin-bottom: 60px;
+}
+#fact h2 {
+    margin: 30px 0px;
+    color: black;
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+#fact p {
+    margin-bottom: 100px;
+    color: #727272;
+    line-height: 26px;
+}
+.box-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.box {
+    border: 1px solid red;
+    width: 240px;
+    height: 240px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.box h3 {
+    font-size: 2.9rem;
+    color: black;
+    font-weight: 600;
+}
+.box p {
+    color: #727272;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.box img {
+    width: 45px;
+}
+/* sponser section code hare  */
+#sponser {
+    margin-bottom: 60px;
+}
+#sponser h2 {
+    color: black;
+    font-size: 2.9rem;
+    text-align: center;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+#sponser p {
+    color: #727272;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight:600;
+}
+.sponser-img-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.sponser-img img {
+    width: 166px;
+    filter: grayscale(100%) brightness(1.2);
+}
+
+#foter {
+    background-color: #FFF4E7;
+    padding: 20px 0px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 60px
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive desing lay out  */
+@media screen and (min-width:577px) and (max-width:992px) {
+        .container {
+    width: 94%;
+    margin: 0 auto;
+}
+.all-team-p {
+    flex-direction: column; 
+    text-align: center;  
+    justify-content: center;
+    align-items: center;
+   
+}
+.quick-p {
+    width: 100%;  
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+}
+.quick-team img {
+    width: 100%;
+    
+
+}
+.love-p {
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center; 
+}
+.card {
+  width: 100%;
+}
+#position {
+    margin-left: 1px;
+    margin-top: 1px ;
+}
+.love-img img {
+    width: 500px;
+}
+.box-p {
+  flex-direction: column;
+}
+.sponser-img-p {
+    flex-wrap: wrap;
+}
+
+}
+@media screen and (max-width:576px){
+    .container {
+    width: 97%;
+    margin: 0 auto;
+}
+.love-contant {
+    text-align: center;
+}
+#nav-bar h1 {
+    font-size: 2.2rem;
+    color: black;
+    font-weight: 600;
+}
+.all-team-p {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.quick-p {
+    width: 100%;  
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+}
+.quick-team img {
+    width: 70%;
+
+}
+.love-p {
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;  
+}
+.card {
+  width: 100%;
+}
+#position {
+    margin-left: 1px;
+    margin-top: 10px ;
+}
+.love-img img {
+    width: 100%;
+}
+.box-p {
+  flex-direction: column;
+}
+#fact h2 {
+    text-align: center;
+    margin: 30px 0px;
+    color: black;
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+#fact p {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #727272;
+    line-height: 26px;
+}
+.sponser-img-p {
+    flex-direction: column;
+    justify-content: center;
+}
+   
+}
